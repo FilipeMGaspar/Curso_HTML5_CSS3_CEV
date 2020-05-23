@@ -27,3 +27,21 @@ a:before{
     width: 50%;
     background: rgba(255.255.255.0.05);
 }
+
+a span:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #0c002b,#1779ff );
+}
+
+a span:nth-child(2){
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #0c002b,#1779ff );
+}
