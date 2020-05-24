@@ -16,11 +16,26 @@
         
         <img src="imagens/foto-G.png" alt="imagem flexivel">
 
-        <h1>Reproduzindo audio</h1>
-        <p>Vamos aprender a reproduzir audio em hml5</p>
-
-        <audio src="media/guanacast-33.mp3"  autoplay></audio>
+        
     </picture>
+
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir audio em hml5</p>
+
+    <audio src="media/guanacast-33.mp3" controls autoplay></audio>
+
+    <h2>Audio de outra forma</h2>
+
+    <audio preload="metadata" autoplay controls>
+
+        <source src="media/guanacast-33.mp3" type="audio/mpeg">
+        <!--
+        <source src="media/guanacast-33.ogg" type="audio/ogg">   
+            
+        <source src="media/guanacast-33.wav" type="audio/wav">   
+        -->
+        <p>Infelizmente o seu navegador não consegue reproduzir o audio. <a href="media/guanacast-33.mp3">clique aqui</a> para baixar o arquivo MP3</p>     
+    </audio>
 
 </body>
 </html>
