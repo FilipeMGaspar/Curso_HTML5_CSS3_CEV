@@ -18,6 +18,16 @@ body{
     text-transform: uppercase;
     font-weight: 900;
     color: #2c3e5036;
-    background: url('_img/water100.png');
+    background: url('_img/water220.png');
     -webkit-background-clip:text;
+    animation: water 15s infinite;
+}
+
+@keyframes water{
+    from{
+      background-position: left 0 top 0;  
+    }
+    to{
+       background-position: left 1000px top 0; 
+    }
 }
