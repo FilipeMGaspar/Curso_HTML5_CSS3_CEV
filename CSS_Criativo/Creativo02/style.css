@@ -18,7 +18,7 @@ body{
     text-transform: uppercase;
     font-weight: 900;
     color: #2c3e5036;
-    background: url('_img/water220.png');
+    background: url('_img/water220z.png');
     -webkit-background-clip:text;
     animation: water 15s infinite;
 }
