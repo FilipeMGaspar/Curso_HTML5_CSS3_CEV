@@ -38,11 +38,11 @@ button.btn2:hover{
 
 button.btn3:hover{
     transform: rotateY(15deg);
-    box-shadow: 0 15px 15px #e15f4190;
+    box-shadow: -15px 0px 15px #e15f4190;
 }
 
 button.btn4:hover{
     transform: rotateY(-15deg);
-    box-shadow: 0 -15px 15px #e15f4190;
+    box-shadow: 15 0px 15px #e15f4190;
 }
 
