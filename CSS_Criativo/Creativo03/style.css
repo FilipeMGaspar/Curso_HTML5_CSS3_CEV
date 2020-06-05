@@ -30,3 +30,10 @@ button.btn1:hover{
     transform: rotateX(15deg);
     box-shadow: 0 15px 15px #e15f4190;
 }
+
+button.btn2:hover{
+    transform: rotateX(-15deg);
+    box-shadow: 0 -15px 15px #e15f4190;
+}
+
+
