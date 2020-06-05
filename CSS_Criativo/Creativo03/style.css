@@ -36,4 +36,13 @@ button.btn2:hover{
     box-shadow: 0 -15px 15px #e15f4190;
 }
 
+button.btn3:hover{
+    transform: rotateY(15deg);
+    box-shadow: 0 15px 15px #e15f4190;
+}
+
+button.btn4:hover{
+    transform: rotateY(-15deg);
+    box-shadow: 0 -15px 15px #e15f4190;
+}
 
