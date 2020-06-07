@@ -28,7 +28,7 @@ div.front, div.back{
     overflow: hidden;
     backface-visibility: hidden;
     position: absolute;
-    transition: transform 0.6 linear;
+    transition: transform 0.6s linear;
 }
 
 div.front img{
@@ -72,9 +72,9 @@ div.sm a:hover{
 }
 
 div.card:hover > div.front{
-    transform: perspective(600px) rotateY(180deg) 
+    transform: perspective(600px) rotateY(-180deg) 
 }
 
 div.card:hover > div.back{
-    transform: perspective(600px) rotateY(180deg)
+    transform: perspective(600px) rotateY(0deg)
 }
