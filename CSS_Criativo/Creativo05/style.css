@@ -24,4 +24,21 @@ div.image::before{
     content: '';
     position: absolute;
     left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+
+div.image:nth-child(1)::before{
+    background-image: url('_img/img1.jpg');
+}
+
+div.image:nth-child(2)::before{
+    background-image: url('_img/img2.jpg');
+}
+
+div.image:nth-child(3)::before{
+    background-image: url('_img/img3.jpg');
 }
