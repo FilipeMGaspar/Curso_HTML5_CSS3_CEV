@@ -57,3 +57,7 @@ form.box input[type = "submit"]{
     transition: 0.25s;
     cursor: pointer;
 }
+
+form.box input[type = "submit"]:hover{
+    background: #2ecc71;
+}
