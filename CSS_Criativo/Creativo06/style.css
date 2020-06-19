@@ -36,3 +36,10 @@ form.box input[type = "text"], input[type = "password"]{
     border-radius: 24px;
     transition: 0.25s;
 }
+
+form.box input[type = "text"]:focus, input[type = "password"]:focus{
+    width: 200px;
+    border: #2ecc71;
+}
+
+form.box input[type = "submit"]
