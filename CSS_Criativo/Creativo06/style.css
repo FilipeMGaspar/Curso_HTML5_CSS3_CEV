@@ -16,6 +16,12 @@ form.box{
     text-align: center;
 }
 
+form.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
 form.box input[type = "text"], input[type = "password"]{
     border: 0;
     background: none;
