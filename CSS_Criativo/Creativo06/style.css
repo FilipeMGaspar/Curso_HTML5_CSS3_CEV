@@ -38,7 +38,7 @@ form.box input[type = "text"], input[type = "password"]{
     transition: 0.25s;
 }
 
-form.box input[type="text"]:focus, input[type="password"]:focus{
+form.box input[type="text"]:hover, input[type="password"]:hover{
     width: 300px;
     border-color: #2ecc71;
 }
