@@ -1,0 +1,3 @@
+function getPassword(){
+    let chars = ""
+}
