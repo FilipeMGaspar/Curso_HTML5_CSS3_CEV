@@ -1,7 +1,7 @@
 let InpPassword = document.querySelector('input#password')
 
 function getPassword(){
-    let chars = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"#$%&/()=?@{}[]'
+    let chars = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"#$%&/({@[)}*]=?'
     let tamPassword = 16
     let password = ""
 
