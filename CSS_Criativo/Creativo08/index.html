@@ -41,13 +41,13 @@
 
            function check(){
                 if(user.value != "" && passw.value != ""){
-                    btn.removeAttribute('disabled')
+                    //btn.removeAttribute('disabled')
+                    btn.setAttribute('disabled', false)
                     //btn.disable = false
                     alert('é Verdadeiro entrei aki!!!!')
                      
                }else{
-                     btn.setAttribute('disabled')
-                     btn.setAttribute('disabled')
+                     btn.setAttribute('disabled', false)                    
                      //btn.disable = true
                      alert ('è Falso')
                } 
