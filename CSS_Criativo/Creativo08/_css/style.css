@@ -124,10 +124,12 @@ body{
     border-radius: 30px;
     cursor: pointer;
     transition: linear 0.85;
+    user-select: none;
 }
 
 .btn:hover{
     opacity: 0.85;
+    text-decoration: none;
 }
 
 .login-form a{
