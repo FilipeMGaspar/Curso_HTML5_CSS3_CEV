@@ -132,11 +132,14 @@ button{
     cursor: pointer;
     transition: linear 0.85;
     user-select: none;
+    text-decoration: none;
 }
 
 .btn:hover{
     opacity: 0.85;
     text-decoration: none;
+    user-select: none;
+    border: none;
 }
 
 .login-form a{
