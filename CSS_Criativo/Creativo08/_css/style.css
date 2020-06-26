@@ -112,6 +112,13 @@ body{
     opacity: 1;
 }
 
+button{
+    text-decoration: none;
+    user-select: none;
+    text-decoration: none;
+    border: none;
+}
+
 .btn{
     display: block;
     width: 100px;
