@@ -86,8 +86,7 @@ body{
 .checkbox input{
     width: 24px;
     height: 24px;
-    /*-webkit-appearance: none; /*Descontinuado*/
-    appearance: none;
+    -webkit-appearance: none; /*Descontinuado*/
     background-color: #ededed;
     border-radius: 4px;
     margin-right: 10px;
