@@ -68,3 +68,7 @@ body{
     cursor: pointer;
 }
 
+.textb input:focus ~ .placeholder, .textb input:valid ~ .placeholder{
+    left: 10px;
+    top: -16px;
+}
