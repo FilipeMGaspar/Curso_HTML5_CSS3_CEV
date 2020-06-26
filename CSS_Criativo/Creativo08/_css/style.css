@@ -143,3 +143,7 @@ body{
     transition: 0.2s linear;
 }
 
+.login-form a:hover{
+    color: #111111;
+}
+
