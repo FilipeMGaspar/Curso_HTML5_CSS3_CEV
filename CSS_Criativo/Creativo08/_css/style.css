@@ -60,5 +60,11 @@ body{
 }
 
 .show-password{
-    
+    position: absolute;
+    right: 20px;
+    line-height: 70px;
+    color: #9d9d9d;
+    font-size: 22px;
+    cursor: pointer;
 }
+
