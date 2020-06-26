@@ -83,3 +83,7 @@ body{
     margin: 20px 0;
 }
 
+.checkbox input{
+    width: 24px;
+    height: 24px;
+}
