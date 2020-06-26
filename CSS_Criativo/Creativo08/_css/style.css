@@ -91,4 +91,17 @@ body{
     background-color: #ededed;
     border-radius: 4px;
     margin-right: 10px;
+    cursor: pointer;
 }
+
+.checkbox .fa-check{
+    position: absolute;
+    color: #ffffff;
+    font-size: 14px;
+    width: 24px;
+    text-align: center;
+    user-select: none;
+    pointer-events: none;
+    opacity: 0;
+}
+
