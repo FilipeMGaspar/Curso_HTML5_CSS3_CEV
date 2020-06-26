@@ -12,7 +12,7 @@
       <form action="#" class="login-form">
           <h1>Sing in</h1>
           <div class="textb">
-               <input type="text" required>
+               <input type="text" required id="user">
                <div class="placeholder">Utilizador</div> 
           </div>
 
@@ -34,11 +34,14 @@
       </form>
       
       <script>
-           var fields = document.querySelectorAll(".textb input")
+           //var fields = document.querySelectorAll(".textb input")
+           //let fields = document.getElementsByClassName('.textb input')
+           let user = document.querySelector('input#user')
            var btn = document.querySelector(".btn")
 
+           alert (user.value)    
            function check(){
-                if(fields[0].value != "" && fields[1].value != ""){
+                if(user.value != "" || fields[1].value != ""){
                     btn.disable = false
                     alert('é Verdadeiro entrei aki!!!!')
                }else{
@@ -47,10 +50,24 @@
                } 
            }
 
-           fields[0].addEventListener("keyup",check())
-           fields[1].addEventListener("keyuo",check())
+           user.addEventListener("keyup", check())
+           //fields[1].addEventListener('Keyup', check())
           //fields[0].addEvenListenner('keyup',check)
           //fields[1].addEvenListenner('keyup',check)
+
+          // os comandos acima tenho de os Averiguar
+
+          document.querySelector('.show-password').addEventListener("click", function(){
+               if(this.classList[2] == "fa-eye-slash"){
+                    this.classList.remove("fa-eye-slash")
+                    this.classList.add("fa-eye")
+                    fields[1].type = "text"
+               }else{
+                    this.classList.remove("fa-eye")
+                    this.classList.add("fa-eye-slash")
+                    fields[1].type = "password"
+               }
+          })
       </script>
 </body>
 </html>
