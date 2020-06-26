@@ -20,3 +20,12 @@ body{
     background-color: #ffffff;
     padding: 50px 40px;
 }
+
+.login-form h1{
+    text-align: center;
+    margin: 48px 0;
+    font-size: 36px;
+    color: #111111;
+    font-size: 36px;
+}
+
