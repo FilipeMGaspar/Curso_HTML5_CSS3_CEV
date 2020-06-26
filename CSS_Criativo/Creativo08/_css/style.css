@@ -46,3 +46,16 @@ body{
     padding: 14px 60px 0 10px;
 }
 
+.placeholder{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    line-height: 70px;
+    top: 0;
+    left: 20px;
+    color: #9d9d9d;
+    user-select: none;
+    pointer-events: none;
+}
+
