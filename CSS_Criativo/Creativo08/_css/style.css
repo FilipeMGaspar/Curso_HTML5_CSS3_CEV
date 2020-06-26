@@ -130,3 +130,16 @@ body{
 .btn:hover{
     opacity: 0.85;
 }
+
+.login-form a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: #555555;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 8px;
+    transition: 0.2s linear;
+}
+
