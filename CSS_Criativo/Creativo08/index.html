@@ -32,6 +32,21 @@
        <a href="#">Não consegue iniciar a sessão?</a>
        <a href="#">Crie uma conta.</a>
       </form>
-    
+      
+      <script>
+           var fields = document.querySelectorAll(".textb input")
+           var btn = document.querySelector(".btn")
+
+           function check(){
+                if((fields[0].value != "") && (fields[1].value != "")){
+                    btn.disable = false
+                }else{
+                     btn.disable = true
+                }
+           }
+
+          fields[0].addEvenListenner('keyup',check)
+          fields[1].addEvenListenner('keyup',check)
+      </script>
 </body>
 </html>
