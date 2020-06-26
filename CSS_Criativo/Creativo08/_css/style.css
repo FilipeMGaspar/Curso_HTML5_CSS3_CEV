@@ -13,3 +13,10 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+.login-form{
+    width: calc(100% - 20px);
+    max-width: 500px;
+    background-color: #ffffff;
+    padding: 50px 40px;
+}
