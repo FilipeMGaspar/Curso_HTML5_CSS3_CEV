@@ -113,3 +113,20 @@ body{
     opacity: 1;
 }
 
+.btn{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 40px auto;
+    background-color: #bc252a;
+    color: #ffffff;
+    font-size: 40px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: linear 0.85;
+}
+
+.btn:hover{
+    opacity: 0.85;
+}
