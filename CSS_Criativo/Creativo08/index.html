@@ -28,7 +28,7 @@
             Mantanha a sessão iniciada.
        </div>
 
-       <button class="btn fas fa-arrow-right" disabled></button>
+       <button class="btn fas fa-arrow-right" disabled id="btn"></button>
        <a href="#">Não consegue iniciar a sessão?</a>
        <a href="#">Crie uma conta.</a>
       </form>
@@ -37,23 +37,24 @@
 
            let user = document.querySelector('input#user')
            let pass = document.querySelector('input#passw')
-           var btn = document.querySelector(".btn")
+           let btn = document.getElementById('btn')
 
            function check(){
                 if(user.value != "" && passw.value != ""){
-                    btn.disable = false
+                    btn.removeAttribute('disabled')
+                    //btn.disable = false
                     alert('é Verdadeiro entrei aki!!!!')
                      
                }else{
-                     btn.disable = true
+                     btn.setAttribute('disabled')
+                     btn.setAttribute('disabled')
+                     //btn.disable = true
                      alert ('è Falso')
                } 
            }
 
            user.addEventListener("keyup", check())
-           //fields[1].addEventListener('Keyup', check())
-          //fields[0].addEvenListenner('keyup',check)
-          //fields[1].addEvenListenner('keyup',check)
+           pass.addEventListener("keyup", check())
 
           // os comandos acima tenho de os Averiguar
 
