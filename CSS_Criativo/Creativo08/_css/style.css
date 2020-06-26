@@ -105,5 +105,11 @@ body{
     opacity: 0;
 }
 
+.checkbox input:checked{
+    background-color: #bc252a;
+}
 
+.checkbox input:checked + .fa-check{
+    opacity: 1;
+}
 
