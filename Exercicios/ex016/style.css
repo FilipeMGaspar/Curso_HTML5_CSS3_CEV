@@ -6,8 +6,17 @@
 }
 
 body{
-    
+    background-image: linear-gradient(to right, #f1d8c9, #f2c3a7);
 }
+
+main{
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+
 
 p{
     text-align: justify;
