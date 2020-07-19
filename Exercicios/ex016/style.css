@@ -16,7 +16,13 @@ main{
     margin: auto;
 }
 
+h1{
+  color: #f39209;  
+}
 
+h2{
+    color: #125189;
+}
 
 p{
     text-align: justify;
