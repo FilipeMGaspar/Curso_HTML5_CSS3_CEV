@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 /*
-    
+    html id no css #
+    html class no css .
 */
 
 body{
@@ -15,7 +16,8 @@ h1{
 
 h1#ttlPrincipal{
     text-align: center;
-    color: rgb(51, 88, 13);
+    background-color: rgb(51, 88, 13);
+    color: whitesmoke;
 }
 
 h2{
