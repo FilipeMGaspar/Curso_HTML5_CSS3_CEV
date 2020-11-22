@@ -28,3 +28,9 @@ header ul li{
 header h1{
     color: whitesmoke;
 }
+
+header .alinhDir{
+    text-align: right;
+    color: whitesmoke;
+    font-size: 15pt;
+}
