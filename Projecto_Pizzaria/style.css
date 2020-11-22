@@ -13,7 +13,6 @@ main{
 }
 
 header{
-    position: relative;
     width: 100%;
     height: 150px;
     background-color: #b22d00;
@@ -30,9 +29,15 @@ header h1{
     color: whitesmoke;
 }
 
-header .alinhDir{
+div.alinhEsq{
+    position: relative;
+    display: inline-block;
+}
+
+div.alinhDir{
+   
+}
+
+div.alinhDir p{
     text-align: right;
-    color: whitesmoke;
-    font-size: 15pt;  
-    margin-right: 15px;
 }
