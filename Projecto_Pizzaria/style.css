@@ -18,6 +18,16 @@ header{
     background-color: #b22d00;
 }
 
+div.alinhEsq{
+    position: relative;
+    display: inline-block;
+}
+
+div.alinhaDir{
+   width: 30%;
+   display: inline-block;
+}
+
 header ul li{
     list-style: none;
     display: inline-block;
@@ -29,15 +39,4 @@ header h1{
     color: whitesmoke;
 }
 
-div.alinhEsq{
-    position: relative;
-    display: inline-block;
-}
 
-div.alinhDir{
-   
-}
-
-div.alinhDir p{
-    text-align: right;
-}
