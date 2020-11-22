@@ -20,5 +20,8 @@ header{
 
 header ul li{
     list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
