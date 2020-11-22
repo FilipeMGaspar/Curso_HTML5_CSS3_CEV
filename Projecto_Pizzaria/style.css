@@ -69,3 +69,9 @@ nav{
     height: 30px;
 }
 
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 25px;
+}
