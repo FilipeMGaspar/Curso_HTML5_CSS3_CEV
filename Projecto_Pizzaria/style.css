@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
 
 *{
     margin: 0;
@@ -42,8 +42,10 @@ header ul li{
 }
 
 header h1{
-    font-family: 'Alex Brush', cursive;
+    font-family: 'Calligraffitti', cursive;
     color: whitesmoke;
+    font-size: 40px;
+    letter-spacing: 1.2%;
 }
 
 header p{
