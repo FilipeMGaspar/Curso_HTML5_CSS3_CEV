@@ -33,12 +33,15 @@ div.alinhaDir{
 header ul li{
     list-style: none;
     display: inline-block;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 header h1{
     color: whitesmoke;
 }
 
-
+header p{
+    color: whitesmoke;
+    font-size: 16pt;
+}
