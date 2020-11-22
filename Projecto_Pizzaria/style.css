@@ -19,13 +19,15 @@ header{
 }
 
 div.alinhEsq{
-    position: relative;
+    width: 75%;
     display: inline-block;
 }
 
 div.alinhaDir{
-   width: 30%;
+    position: relative;
+   width: 20%;
    display: inline-block;
+   right: 0;
 }
 
 header ul li{
