@@ -114,3 +114,12 @@ article h1{
     border-bottom: solid 2px black;
 }
 
+article ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+article img{
+    margin-top: 15px;
+}
