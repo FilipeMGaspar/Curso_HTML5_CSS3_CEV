@@ -128,3 +128,7 @@ article img.imgDir{
     margin-left: 0px;
     margin-right: 0px;
 }
+
+article figcaption{
+    text-align: center;
+}
