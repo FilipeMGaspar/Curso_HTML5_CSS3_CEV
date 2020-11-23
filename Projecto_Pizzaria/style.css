@@ -121,5 +121,10 @@ article ul li{
 
 article img{
     margin-top: 15px;
-    margin-right: 15px;
+    margin-right: 33px;
+}
+
+article img.imgDir{
+    margin-left: 0px;
+    margin-right: 0px;
 }
