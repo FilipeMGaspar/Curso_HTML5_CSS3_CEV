@@ -169,4 +169,5 @@ article div.saboresAEsquerda{
 article div.historiaADireita{
     width: 40%;
     display: inline-block;
+    vertical-align: top;
 }
