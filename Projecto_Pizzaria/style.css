@@ -97,7 +97,7 @@ nav ul a:hover{
 section{
     margin: auto;
     width: 100%;
-    height: 600px;
+    height: 550px;
     background-color: white;
 }
 
@@ -115,6 +115,7 @@ article h1{
 article ul li{
     list-style: none;
     display: inline-block;
+    font-size: 11pt;
 }
 
 article img{
@@ -146,7 +147,7 @@ article div.saboresAEsquerda{
 }
 
 article div.saboresAEsquerda h2{
-    font-size: 28pt;
+    font-size: 24pt;
 }
 
 .sabores1{
@@ -177,5 +178,5 @@ article div.historiaADireita{
 }
 
 article div.historiaADireita h2{
-    font-size: 28pt;
+    font-size: 24pt;
 }
