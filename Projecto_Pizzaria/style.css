@@ -180,3 +180,12 @@ article div.historiaADireita{
 article div.historiaADireita h2{
     font-size: 24pt;
 }
+
+article div.historiaADireita img{
+    display: inline-block;
+    width: 40%;
+}
+article div.historiaADireita ul li{
+    display: inline-block;
+    width: 40%;
+}
