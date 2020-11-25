@@ -142,7 +142,7 @@ article div{
 }
 
 article div.saboresAEsquerda{
-    width: 45%;
+    width: 53%;
     display: inline-block;
 }
 
@@ -181,11 +181,13 @@ article div.historiaADireita h2{
     font-size: 24pt;
 }
 
-article div.historiaADireita img{
+.imagemAEsquerda{
     display: inline-block;
-    width: 40%;
+    vertical-align: top;
 }
-article div.historiaADireita ul li{
+
+.textoaDireita{
     display: inline-block;
     width: 40%;
+    vertical-align: top;
 }
