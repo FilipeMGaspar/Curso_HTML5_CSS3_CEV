@@ -135,3 +135,9 @@ article p.linhaHorizontal{
     border-bottom: solid 2px black;
 }
 
+article div.saboresAEsquerda{
+    width: 40%;
+    display: inline-block;
+}
+
+article div.
