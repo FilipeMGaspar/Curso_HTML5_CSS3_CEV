@@ -146,14 +146,25 @@ article div.saboresAEsquerda{
 }
 
 .sabores1{
-    width: 30%;
+    width: 33%;
     display: inline-block;
+    margin-right: 15px;
+    vertical-align: top;
 }
 
 .sabores2{
     width: 20%;
     display: inline-block;
+    margin-right: 15px ;
+    vertical-align: top;
 }
+
+.sabores3{
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+
 article div.historiaADireita{
     width: 40%;
     display: inline-block;
