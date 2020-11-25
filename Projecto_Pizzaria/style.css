@@ -145,8 +145,16 @@ article div.saboresAEsquerda{
     display: inline-block;
 }
 
+.sabores1{
+    width: 25%;
+    display: inline-block;
+}
+
+.sabores2{
+    width: 20%;
+    display: inline-block;
+}
 article div.historiaADireita{
-    position: relative;
     width: 40%;
     display: inline-block;
 }
