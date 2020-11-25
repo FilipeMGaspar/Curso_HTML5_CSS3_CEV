@@ -132,11 +132,16 @@ article figcaption{
 }
 
 article p.linhaHorizontal{
+    margin-top: 15px;
     border-bottom: solid 2px black;
 }
 
+article div{
+    margin-top: 15px
+}
+
 article div.saboresAEsquerda{
-    width: 40%;
+    width: 45%;
     display: inline-block;
 }
 
