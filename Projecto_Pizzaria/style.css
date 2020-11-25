@@ -130,3 +130,6 @@ article img.imgDir{
 article figcaption{
     text-align: center;
 }
+hr{
+    border: solid 1.5px black;
+}
