@@ -145,6 +145,10 @@ article div.saboresAEsquerda{
     display: inline-block;
 }
 
+article div.saboresAEsquerda h2{
+    font-size: 28pt;
+}
+
 .sabores1{
     width: 33%;
     display: inline-block;
@@ -170,4 +174,8 @@ article div.historiaADireita{
     width: 40%;
     display: inline-block;
     vertical-align: top;
+}
+
+article div.historiaADireita h2{
+    font-size: 28pt;
 }
