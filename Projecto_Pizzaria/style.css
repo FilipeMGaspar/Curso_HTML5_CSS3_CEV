@@ -130,3 +130,7 @@ article img.imgDir{
 article figcaption{
     text-align: center;
 }
+
+article p.linhaHorizontal{
+    border-bottom: solid 2px black;
+}
