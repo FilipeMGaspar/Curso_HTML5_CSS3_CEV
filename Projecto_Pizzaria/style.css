@@ -145,9 +145,8 @@ article div.saboresAEsquerda{
     display: inline-block;
 }
 
-
-
 article div.historiaADireita{
-    width: 45%;
+    position: relative;
+    width: 40%;
     display: inline-block;
 }
