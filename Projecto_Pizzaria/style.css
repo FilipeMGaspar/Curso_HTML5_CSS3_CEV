@@ -97,7 +97,7 @@ nav ul a:hover{
 section{
     margin: auto;
     width: 100%;
-    height: 550px;
+    height: 530px;
     background-color: white;
 }
 
@@ -202,5 +202,7 @@ article div.historiaADireita h2{
 }
 /* Configurações do rodapé*/
 footer{
-    
+    width: 100%;
+    height: 15px;
+    background-color: #333333;
 }
