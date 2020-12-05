@@ -116,7 +116,17 @@ article p{
     margin-top: 15px;
 }
 
+.histMissEsq{
+    background-color: red;
+    display: inline-block;
+    width: 45%;
+}
 
+.galeriaValorDir{
+    background-color: blue;
+    display: inline-block;
+    width: 45%;
+}
 
 /* Configurações do rodapé*/
 footer{
