@@ -126,7 +126,7 @@ h2{
 }
 
 p{
-
+    text-align: justify;
 }
 
 .galeriaValorDir{
@@ -136,6 +136,9 @@ p{
     margin-left: 25px;
 }
 
+.galeriaValorDir ul li{
+    list-style: none;
+}
 
 /* Configurações do rodapé*/
 footer{
