@@ -209,5 +209,7 @@ footer{
 
 footer p{
     color: whitesmoke;
-    font-size: 13pt;
+    font-size: 9pt;
+    text-align: center;
+    padding-top: 3px;
 }
