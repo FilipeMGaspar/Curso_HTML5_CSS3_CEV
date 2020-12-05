@@ -112,7 +112,23 @@ article h1{
     border-bottom: solid 2px black;
 }
 
+article p{
+    margin-top: 15px;
+}
 
+div .teste{
+    background-color: blue;
+    width: 45%;
+    height: 150px;
+    display: inline-block;
+}
+
+div .galeriaValores{
+    display: inline-block;
+    background-color: red;
+    width: 45%;
+    height: 150px;
+}
 
 /* Configurações do rodapé*/
 footer{
