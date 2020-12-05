@@ -133,11 +133,12 @@ p{
     display: inline-block;
     width: 45%;
     vertical-align: top;
-    margin-left: 25px;
+    margin-left: 35px;
 }
 
 .galeriaValorDir ul li{
     list-style: none;
+    text-indent: 10px;
 }
 
 /* Configurações do rodapé*/
