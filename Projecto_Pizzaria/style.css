@@ -206,3 +206,8 @@ footer{
     height: 25px;
     background-color: #333333;
 }
+
+footer p{
+    color: whitesmoke;
+    font-size: 13pt;
+}
