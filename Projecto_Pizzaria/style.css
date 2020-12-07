@@ -198,7 +198,12 @@ article div.historiaADireita h2{
 }
 
 .saibaMais{
-    color: #a02901;;
+    color: #a02901;
+}
+
+.textoaDireita a:hover{
+    color: #832303;
+    text-decoration: underline;
 }
 /* Configurações do rodapé*/
 footer{
