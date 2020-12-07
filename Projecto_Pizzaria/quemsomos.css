@@ -139,6 +139,7 @@ p{
 .galeriaValorDir ul li{
     list-style: none;
     text-indent: 10px;
+    display: inline-block;
 }
 
 /* Configurações do rodapé*/
