@@ -139,9 +139,12 @@ p{
 .galeriaValorDir ul li{
     list-style: none;
     text-indent: 10px;
-    display: inline-block;
 }
 
+.galeria{
+    display: inline-block;
+    
+}
 /* Configurações do rodapé*/
 footer{
     width: 100%;
