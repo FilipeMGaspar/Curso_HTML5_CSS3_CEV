@@ -112,7 +112,9 @@ article h1{
     border-bottom: solid 2px black;
 }
 
-
+.txtMsg{
+    font-size: 14pt;
+}
 
 /* Configurações do rodapé*/
 footer{
